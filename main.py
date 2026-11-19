@@ -11,6 +11,9 @@ def get_response(message):
 
     elif message in ["bye", "goodbye", "exit"]:
         return "Goodbye! Have a great day."
+    
+    elif message in ["what is your age?", "how old are you?"]:
+        return "I'm timeless! I don't have an age like humans do."
 
     else:
         return "I'm still learning. I don't understand that yet."
