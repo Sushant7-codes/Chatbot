@@ -9,7 +9,7 @@ INTENTS = {
     },
 
     "ask_name": {
-        "keywords": ["name"],
+        "keywords": ["name","identity","you","introduce","introduce","introduction"],
         "responses": [
             "I'm PyBot, your personal Python chatbot!"
         ]
